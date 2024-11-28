@@ -35,7 +35,7 @@ int main()
         printf("Char %d = %c\n", i, txt[i]);
     }
 
-    print_nbr_char(txt);
+    print_nbr_char(txt); // cette fonction modifie le tableau (chaîne de caractères)
     printf("%s", txt); // Aoujour;
 
 }
